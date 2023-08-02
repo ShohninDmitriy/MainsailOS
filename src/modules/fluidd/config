@@ -1,0 +1,8 @@
+[ -n "$FLUIDD_DEPS" ] || FLUIDD_DEPS="nginx"
+[ -n "$FLUIDD_URL" ] || FLUIDD_URL=https://github.com/ShohninDmitriy/fluidd/releases/latest/download/fluidd.zip
+# mainsail.cfg repo
+[[ -n "$MAINSAIL_CONFIG_REPO_SHIP" ]] || MAINSAIL_CONFIG_REPO_SHIP="https://github.com/mainsail-crew/mainsail-config.git"
+[[ -n "$MAINSAIL_CONFIG_REPO_BRANCH" ]] || MAINSAIL_CONFIG_REPO_BRANCH="master"
+# mainsail.cfg setup
+[[ -n "$MAINSAIL_CONFIG_SRC_PATH" ]] || MAINSAIL_CONFIG_SRC_PATH="/home/${BASE_USER}/mainsail-config/mainsail.cfg"
+[[ -n "$MAINSAIL_CONFIG_DEST_PATH" ]] || MAINSAIL_CONFIG_DEST_PATH="/home/${BASE_USER}/printer_data/config/mainsail.cfg"

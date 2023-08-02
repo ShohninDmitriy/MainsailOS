@@ -16,6 +16,6 @@
 [ -n "$TIMELAPSE_CONFIG_DIR" ] || TIMELAPSE_CONFIG_DIR="/home/${BASE_USER}/printer_data/config"
 [ -n "$TIMELAPSE_TEMPLATE" ] || TIMELAPSE_TEMPLATE="/home/${BASE_USER}/timelapse_template.txt"
 
-[ -n "$TIMELAPSE_REPO_SHIP" ] || TIMELAPSE_REPO_SHIP=https://github.com/mainsail-crew/moonraker-timelapse.git
+[ -n "$TIMELAPSE_REPO_SHIP" ] || TIMELAPSE_REPO_SHIP=https://github.com/ShohninDmitriy/moonraker-timelapse.git
 [ -n "$TIMELAPSE_REPO_BRANCH" ] || TIMELAPSE_REPO_BRANCH=main
 [ -n "$TIMELAPSE_DEPS" ] || TIMELAPSE_DEPS="ffmpeg"
