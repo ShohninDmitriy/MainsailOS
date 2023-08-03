@@ -24,7 +24,7 @@ get_img_name() {
 
 DIST_VERSION="$(get_version)"
 BASE_ZIP_IMG="$(get_img_name)"
-DIST_NAME="MainsailOS"
+DIST_NAME="FluiddOS"
 
 # export Variables
 export DIST_NAME
