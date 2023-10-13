@@ -4,8 +4,10 @@
 # Declare Variables before exporting.
 # See https://www.shellcheck.net/wiki/SC2155
 
-DOWNLOAD_URL_CHECKSUM="https://downloads.raspberrypi.org/raspios_lite_armhf_latest.sha256"
-DOWNLOAD_URL_IMAGE="https://downloads.raspberrypi.org/raspios_lite_armhf_latest.torrent"
+DOWNLOAD_URL_CHECKSUM="https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2023-05-03/2023-05-03-raspios-bullseye-armhf-lite.img.xz.sha256"
+#DOWNLOAD_URL_CHECKSUM="https://downloads.raspberrypi.org/raspios_lite_armhf_latest.sha256"
+DOWNLOAD_URL_IMAGE="https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2023-05-03/2023-05-03-raspios-bullseye-armhf-lite.img.torrent"
+#DOWNLOAD_URL_IMAGE="https://downloads.raspberrypi.org/raspios_lite_armhf_latest.torrent"
 
 export DOWNLOAD_URL_CHECKSUM
 export DOWNLOAD_URL_IMAGE
