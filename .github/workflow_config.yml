@@ -17,7 +17,7 @@
 buildtest:
   # armbian based images
   #- armbian/bananapim2zero
-  - armbian/orangepi3lts
+  #- armbian/orangepi3lts
   #- armbian/orangepi4lts
   # Orange Pi OS based images
   - orangepi/orangepi_zero2
@@ -32,7 +32,7 @@ buildtest:
 
 release:
   # armbian based images
-  - armbian/orangepi3lts
+  #- armbian/orangepi3lts
   #- armbian/orangepi4lts
   # Orange Pi OS based images
   - orangepi/orangepi_zero2
