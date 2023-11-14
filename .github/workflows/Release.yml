@@ -226,7 +226,7 @@ jobs:
           description: "Type: ${{ steps.build.outputs.type }}, SBC: ${{ steps.build.outputs.sbc }}"
           type: "${{ steps.build.outputs.type }}"
           sbc: "${{ steps.build.outputs.sbc }}"
-          url: "https://github.com/mainsail-crew/MainsailOS/releases/download/${{ github.event.inputs.version }}/${{ steps.move-image.outputs.image }}.img.xz"
+          url: "https://github.com/ShohninDmitriy/MainsailOS/releases/download/${{ github.event.inputs.version }}/${{ steps.move-image.outputs.image }}.img.xz"
           icon: "https://os.mainsail.xyz/rpi-imager.png"
           init_format: "systemd"
           release_date: "${{ needs.release.outputs.date }}"

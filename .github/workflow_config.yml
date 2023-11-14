@@ -21,6 +21,7 @@ buildtest:
   - armbian/orangepi4lts
   # Orange Pi OS based images
   - orangepi/orangepi_zero2
+  - orangepi/orangepi_zero3
   # Raspberry Pi OS based images
   - raspberry/rpi32
   - raspberry/rpi64
@@ -34,6 +35,7 @@ release:
   - armbian/orangepi4lts
   # Orange Pi OS based images
   - orangepi/orangepi_zero2
+  - orangepi/orangepi_zero3
   # Raspberry Pi OS based images
   - raspberry/rpi32
   - raspberry/rpi64
