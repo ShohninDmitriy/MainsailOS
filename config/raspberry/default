@@ -20,7 +20,7 @@ export MODULES
 ### JSON sniplet Setup
 ### NOTE: Please see all config files for setup variables!!!
 # shellcheck disable=SC2034
-JSON_DESCRIPTION="A port of Raspberry Pi OS with preinstalled Klipper/Moonraker/Mainsail for 3D printers"
+JSON_DESCRIPTION="A port of Raspberry Pi OS with preinstalled Klipper/Moonraker/fluidd for 3D printers"
 # shellcheck disable=SC2034
 JSON_INIT_FORMAT="systemd"
 # shellcheck disable=SC2034
