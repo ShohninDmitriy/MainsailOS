@@ -6,8 +6,8 @@ BASE_ARCH="arm64"
 #BASE_ROOT_PARTITION="2"
 
 # Image source
-DOWNLOAD_URL_CHECKSUM="${DOWNLOAD_BASE_URL}/orangepi-orangepi_zero2_bullseye.img.xz.sha256"
-DOWNLOAD_URL_IMAGE="${DOWNLOAD_BASE_URL}/orangepi-orangepi_zero2_bullseye.img.xz"
+DOWNLOAD_URL_CHECKSUM="${DOWNLOAD_BASE_URL}/orangepi-orangepi_zero2w_others_bullseye.img.xz.sha256"
+DOWNLOAD_URL_IMAGE="${DOWNLOAD_BASE_URL}/orangepi-orangepi_zero2w_others_bullseye.img.xz"
 
 # export Variables
 export BASE_ARCH
@@ -17,6 +17,6 @@ export DOWNLOAD_URL_IMAGE
 ### JSON sniplet Setup
 ### NOTE: Please see all config files for setup variables!!!
 # shellcheck disable=SC2034
-JSON_PRETTY_SBC_NAME="Orange Pi Zero2"
+JSON_PRETTY_SBC_NAME="Orange Pi Zero2w"
 # shellcheck disable=SC2034
-JSON_SUPPORTED_SBC="orangepizero2-64bit"
+JSON_SUPPORTED_SBC="orangepizero2w-64bit"

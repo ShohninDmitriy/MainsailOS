@@ -22,7 +22,9 @@ buildtest:
   # Orange Pi OS based images
   - orangepi/orangepi_zero2
   - orangepi/orangepi_zero3
+  - orangepi/orangepi_zero2w
   #- orangepi/orangepi_zero3_curr
+  #- orangepi/orangepi_zero2w_curr
   # Raspberry Pi OS based images
   #- raspberry/rpi32
   - raspberry/rpi64
@@ -37,7 +39,9 @@ release:
   # Orange Pi OS based images
   - orangepi/orangepi_zero2
   - orangepi/orangepi_zero3
+  - orangepi/orangepi_zero2w
   #- orangepi/orangepi_zero3_curr
+  #- orangepi/orangepi_zero2w_curr
   # Raspberry Pi OS based images
   #- raspberry/rpi32
   - raspberry/rpi64
