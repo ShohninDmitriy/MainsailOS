@@ -64,7 +64,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: "master"
+          ref: master
           fetch-depth: 0
 
       - name: Get latest tag
@@ -131,6 +131,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
+          ref: master
           path: repository
           submodules: true
 
@@ -142,7 +143,7 @@ jobs:
 
       - name: Upload failed Logfile
         if: failure()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: failed-${{ steps.move-image.outputs.image }}.log
           path: repository/src/build.log
