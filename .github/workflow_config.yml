@@ -20,6 +20,7 @@ buildtest:
   #- armbian/orangepi3lts
   #- armbian/orangepi4lts
   - armbian/orangepi_zero2
+  - armbian/orangepi_zero3
   # Orange Pi OS based images
   - orangepi/orangepi_zero3
   #- orangepi/orangepi_zero3_curr
@@ -37,6 +38,7 @@ release:
   #- armbian/orangepi3lts
   #- armbian/orangepi4lts
   - armbian/orangepi_zero2
+  - armbian/orangepi_zero3
   # Orange Pi OS based images
   - orangepi/orangepi_zero3
   #- orangepi/orangepi_zero3_curr
