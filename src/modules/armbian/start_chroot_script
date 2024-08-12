@@ -44,7 +44,7 @@ if_group_exists_run() {
 echo "${BASE_USER} ALL=(ALL:ALL) NOPASSWD:ALL" >> /etc/sudoers
 
 ## Step 1: Install armbian specific packages
-apt update
+sudo apt update
 # shellcheck disable=SC2086
 check_install_pkgs ${ARMBIAN_DEPS}
 ## END Step 1

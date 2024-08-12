@@ -24,7 +24,7 @@ echo_green "Installing Fluidd Web Frontend and configuration..."
 echo_green "Install Fluidd dependencies ..."
 ### install all deps at once for time consumption reasons.
 ## APT: Update Repo Database and install Dependencies
-apt_update_skip
+sudo apt_update_skip
 # Disabling shellcheck SC2086, because we want "wordsplitting"
 # shellcheck disable=SC2086
 check_install_pkgs ${FLUIDD_DEPS}
