@@ -54,7 +54,7 @@ fi
 ## END Step 2
 
 ## Step 3: Install CANBoot Dependency
-sudo apt-get update --allow-releaseinfo-change
+apt-get update --allow-releaseinfo-change
 # shellcheck disable=SC2086
 check_install_pkgs ${MAINSAILOS_DEPS}
 ## END Step 3

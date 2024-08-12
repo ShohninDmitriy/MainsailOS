@@ -24,7 +24,7 @@ KS_MOONRAKER_CONF_PATH="/home/${BASE_USER}/printer_data/config/moonraker.conf"
 echo_green "Installing KlipperScreen and enable KlipperScreen Service ..."
 
 ## Force apt update
-sudo apt-get update
+apt-get update
 ## Make sure 'git' is installed!
 check_install_pkgs git
 
