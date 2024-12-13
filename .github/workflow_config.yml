@@ -23,7 +23,6 @@ buildtest:
   - armbian/orangepi_zero3
   # Orange Pi OS based images
   - orangepi/orangepi_zero3
-  #- orangepi/orangepi_zero3_curr
   # Raspberry Pi OS based images
   #- raspberry/rpi32
   - raspberry/rpi64
@@ -41,7 +40,6 @@ release:
   - armbian/orangepi_zero3
   # Orange Pi OS based images
   - orangepi/orangepi_zero3
-  #- orangepi/orangepi_zero3_curr
   # Raspberry Pi OS based images
   #- raspberry/rpi32
   - raspberry/rpi64
