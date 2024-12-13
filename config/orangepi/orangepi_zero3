@@ -6,8 +6,8 @@ BASE_ARCH="arm64"
 #BASE_ROOT_PARTITION="2"
 
 # Image source
-DOWNLOAD_URL_CHECKSUM="${DOWNLOAD_BASE_URL}/orangepi-orangepi_zero3_others_bullseye.img.xz.sha256"
-DOWNLOAD_URL_IMAGE="${DOWNLOAD_BASE_URL}/orangepi-orangepi_zero3_others_bullseye.img.xz"
+DOWNLOAD_URL_CHECKSUM="${DOWNLOAD_BASE_URL}/orangepi-orangepi_zero3_others_bookworm.img.xz.sha256"
+DOWNLOAD_URL_IMAGE="${DOWNLOAD_BASE_URL}/orangepi-orangepi_zero3_others_bookworm.img.xz"
 
 # export Variables
 export BASE_ARCH
