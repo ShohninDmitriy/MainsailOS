@@ -5,6 +5,7 @@ on:
       - "develop"
       - "Fluidd"
       - "Fluidd_original"
+      - "Fluidd_old"
     paths:
       - "src/modules/**"
       - "src/build_dist"
