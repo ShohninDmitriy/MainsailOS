@@ -7,7 +7,7 @@ export CUSTOM_PI_OS_PATH
 export PATH=$PATH:$CUSTOM_PI_OS_PATH
 
 echo "Installing CustomPiOS dependencies..."
-apt-get install -y --no-install-recommends \
+sudo apt-get install -y --no-install-recommends \
         ca-certificates \
         sudo \
         build-essential \

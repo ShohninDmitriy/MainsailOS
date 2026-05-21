@@ -18,8 +18,8 @@ source /common.sh
 install_cleanup_trap
 
 # Install dependencies
-apt-get update
-apt-get install -y uuid
+sudo apt-get update
+sudo apt-get install -y uuid
 
 # Install scripts
 unpack filesystem/usr/local/bin /usr/local/bin root
