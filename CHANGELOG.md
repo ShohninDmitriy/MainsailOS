@@ -2,10 +2,69 @@
 # Changelog
 All notable changes to MainsailOS will be documented in this file.
 
-## [2.0.0](https://github.com/mainsail-crew/MainsailOS/releases/tag/2.0.0) - 2025-05-19
+## [3.0.0](https://github.com/mainsail-crew/MainsailOS/releases/tag/3.0.0) - 2026-05-06
+### Features
+
+- **cloudinit**: Add cloud-init init_format with pre/post-rename flow
+- **crowsnest**: Switch to v5 branch and drop legacy pkglist installer
+
+### Bug Fixes and Improvements
+
+- **build**: Update architecture to armv7l
+- **klipper**: Adapt numpy and libatlas-base-dev for Trixie
+- **opi-zero2**: Update overlay configuration for SPI, I2C, and UART ([#355](https://github.com/mainsail-crew/MainsailOS/pull/355))
+- **opi3lts**: Update configuration to enable i2c and UART alongside SPI ([#357](https://github.com/mainsail-crew/MainsailOS/pull/357))
+- **opi4lts**: Update overlay_prefix for RK3399 and copy fixup script ([#356](https://github.com/mainsail-crew/MainsailOS/pull/356))
+- **raspberry**: Configure user, ssh, getty and passwordless sudo for Trixie
+- Fix armbian-motd ([#352](https://github.com/mainsail-crew/MainsailOS/pull/352))
+- Armbian-motd ([#353](https://github.com/mainsail-crew/MainsailOS/pull/353))
+- Fix building wheels on armhf images ([#358](https://github.com/mainsail-crew/MainsailOS/pull/358))
+
+### Other
+
+- **build**: Update runner to ubuntu-24.04-arm
+- **workflow**: Update build & release workflow actions ([#362](https://github.com/mainsail-crew/MainsailOS/pull/362))
+- Update .gitignore to include JetBrains and Clankers ([#361](https://github.com/mainsail-crew/MainsailOS/pull/361))
+- Bump version to v3.0.0
+
+## [2.2.2](https://github.com/mainsail-crew/MainsailOS/releases/tag/2.2.2) - 2025-10-03
+### Bug Fixes and Improvements
+
+- **RpiOS**: Fix download urls to raspios oldstable (bookworm) ([#350](https://github.com/mainsail-crew/MainsailOS/pull/350))
+
+### Other
+
+- Bump version to v2.2.2
+
+## [2.2.1](https://github.com/mainsail-crew/MainsailOS/releases/tag/2.2.1) - 2025-10-03
+### Bug Fixes and Improvements
+
+- **Canbus**: Remove `RestartSec=0.1s` from the 25-can.network config. ([#349](https://github.com/mainsail-crew/MainsailOS/pull/349))
+
+### Other
+
+- Bump version to v2.2.1
+
+## [2.2.0](https://github.com/mainsail-crew/MainsailOS/releases/tag/2.2.0) - 2025-09-07
+### Features
+
+- Add support for orangepi zero3 ([#336](https://github.com/mainsail-crew/MainsailOS/pull/336))
+
+### Bug Fixes and Improvements
+
+- **headless_nm**: Fix reading SSID or PW with special chars ([#347](https://github.com/mainsail-crew/MainsailOS/pull/347))
+
+### Other
+
+- Bump version to v2.2.0
+
+## [2.1.0](https://github.com/mainsail-crew/MainsailOS/releases/tag/2.1.0) - 2025-08-15
 ### Features
 
 - **ci**: Add KlipperScreen module ([#284](https://github.com/mainsail-crew/MainsailOS/pull/284))
+- Add module for KIAUH ([#318](https://github.com/mainsail-crew/MainsailOS/pull/318))
+- Add CANBUS support ([#339](https://github.com/mainsail-crew/MainsailOS/pull/339))
+- Add btt cb1 build_only image ([#328](https://github.com/mainsail-crew/MainsailOS/pull/328))
 
 ### Bug Fixes and Improvements
 
@@ -15,11 +74,22 @@ All notable changes to MainsailOS will be documented in this file.
 - **moonraker**: PKGLIST variable rename ([#298](https://github.com/mainsail-crew/MainsailOS/pull/298))
 - Add supported sbc to non rpi images ([#277](https://github.com/mainsail-crew/MainsailOS/pull/277))
 - Fix current version number ([#317](https://github.com/mainsail-crew/MainsailOS/pull/317))
+- Improve special modules check in build & release workflow ([#329](https://github.com/mainsail-crew/MainsailOS/pull/329))
+- Enable WiFi per default on RPI SBCs ([#334](https://github.com/mainsail-crew/MainsailOS/pull/334))
+- Fix parsing array to copy special modules ([#338](https://github.com/mainsail-crew/MainsailOS/pull/338))
+- Fix upgrade rpi images ([#342](https://github.com/mainsail-crew/MainsailOS/pull/342))
 
 ### Refactor
 
 - Change version handling ([#296](https://github.com/mainsail-crew/MainsailOS/pull/296))
 - Transition from CustomPiOs to CustoPiZer ([#314](https://github.com/mainsail-crew/MainsailOS/pull/314))
+- Use systemctl_if_exists in 10-config-raspberry ([#332](https://github.com/mainsail-crew/MainsailOS/pull/332))
+
+### Documentation
+
+- Readme CanBoot -> katapult ([#320](https://github.com/mainsail-crew/MainsailOS/pull/320))
+- Readme fix newline ([#321](https://github.com/mainsail-crew/MainsailOS/pull/321))
+- Update README.md ([#327](https://github.com/mainsail-crew/MainsailOS/pull/327))
 
 ### Other
 
@@ -29,6 +99,8 @@ All notable changes to MainsailOS will be documented in this file.
 - Change module order ([#291](https://github.com/mainsail-crew/MainsailOS/pull/291))
 - Switch to armbian for Opi Zero2 ([#292](https://github.com/mainsail-crew/MainsailOS/pull/292))
 - Bump version to v2.0.0
+- Add attribute to config.yml to add "build_only" images ([#325](https://github.com/mainsail-crew/MainsailOS/pull/325))
+- Bump version to v2.1.0
 
 ## [1.3.2](https://github.com/mainsail-crew/MainsailOS/releases/tag/1.3.2) - 2024-01-20
 ### Bug Fixes and Improvements
@@ -296,4 +368,5 @@ All notable changes to MainsailOS will be documented in this file.
 
 - Moves $httpupgrade and upstream servers to common config
 
+## [0.0.7](https://github.com/mainsail-crew/MainsailOS/releases/tag/0.0.7) - 2020-09-24
 
